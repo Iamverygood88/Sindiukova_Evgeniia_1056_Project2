@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+
+.hidden {
+
+	display: none; 
+}
+
+#siteContainer {
+
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainHeader {
+	height: 100px;
+	background: rgb(109,164,218); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(109,164,218,1) 0%, rgba(21,74,126,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(109,164,218,1) 0%,rgba(21,74,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(109,164,218,1) 0%,rgba(21,74,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6da4da', endColorstr='#154a7e',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+#mainHeader h2 {
+	font-family: 'Raleway', sans-serif;
+	color: white; 
+	text-align: center;
+	font-size: 35px;
+	padding-top: 32.5px;
+}
+
+#mainHeader h2:hover {
+	color: #053053;
+}
+
+#aboutText {
+	margin-top: 20px;
+}
+
+.textPart1 {
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+}
+.textPart1 p:first-letter {
+	font-size: 35px;
+	color: green;
+
+}
+
+#TRAAWork h2 {
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #053053;
+	text-decoration: underline;
+
+}
+
+#TRAAWork1 {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+#river {
+	position: relative;
+}
+
+#riverImage img{
+	transition: .5s;
+}
+
+#river:hover #riverImage img {
+	filter: blur(1px);
+	opacity: .2;
+}
+
+.riverText {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0;
+
+}
+
+#river:hover .riverText {
+	opacity: 1;
+}
+
+#babyFishImage {
+	margin-left: 15px;
+}
+
+#babyFish {
+	position: relative;
+}
+
+#babyFishImage img{
+	transition: .5s;
+}
+
+#babyFish:hover #babyFishImage img {
+	filter: blur(1px);
+	opacity: .2;
+}
+
+.babyFishText {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0;
+	margin-left: 15px;
+
+}
+
+#babyFish:hover .babyFishText {
+	opacity: 1;
+}
+
+#TRAAWork2 {
+
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+#systemInspect {
+	position: relative;
+}
+
+#systemInspectImage img{
+	transition: .5s;
+}
+
+#systemInspect:hover #systemInspectImage img {
+	filter: blur(1px);
+	opacity: .2;
+}
+
+.systemInspectText {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0;
+
+}
+
+#systemInspect:hover .systemInspectText {
+	opacity: 1;
+}
+
+#fishSizeImage {
+	margin-left: 15px;
+}
+
+#fishSize {
+	position: relative;
+}
+
+#fishSizeImage img{
+	transition: .5s;
+}
+
+#fishSize:hover #fishSizeImage img {
+	filter: blur(1px);
+	opacity: .2;
+}
+
+.fishSizeText {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	opacity: 0;
+	margin-left: 15px;
+
+}
+
+#fishSize:hover .fishSizeText {
+	opacity: 1;
+}
+
+#Environmentalism h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #053053;
+	margin-top: 30px;
+	text-decoration: underline;
+
+}
+
+#Environmentalism p {
+	margin-top: 20px;
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+#Rainbowtrout {
+	height: 533px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.rainbowText h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #053053;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+.rainbowText p {
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+	padding-left: 20px;
+	/*padding-right: 20px;*/
+	padding-top: 20px;
+}
+
+.rainbowText p:first-letter {
+	font-size: 25px;
+	color: green;
+}
+
+#rainbow {
+	margin-top: 20px;
+}
+
+#rainbow p{
+	font-family: 'Rajdhani', sans-serif;
+	color: #053053;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+
+}
+
+#rainbowPicture {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+#rainbowTrout2Image {
+	/*border: 5px outset #053053;*/
+	margin-bottom: 0px;
+}
+
+#rainbowTrout3Image {
+	/*border: 5px outset #053053;*/
+	margin-bottom: 0px;
+}
+
+#mainFooter {
+	margin-top: -3px;
+	height: 100px;
+	background: rgb(109,164,218); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(109,164,218,1) 0%, rgba(21,74,126,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(109,164,218,1) 0%,rgba(21,74,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(109,164,218,1) 0%,rgba(21,74,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6da4da', endColorstr='#154a7e',GradientType=0 ); /* IE6-9 */
+
+
+}
+.paragraph {
+	padding-top:40px;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+.paragraph:hover {
+	color: #053053;
+}
+
+
+
+
